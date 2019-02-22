@@ -4,18 +4,22 @@
     <list default="true" id="0ba317b1-9b67-44a5-aa89-bb1a4d9cfe95" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Checkbox.ser" beforeDir="false" afterPath="$PROJECT_DIR$/Checkbox.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBox$MyClearListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBox$MyDownTempoListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBox$MyReadInListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBox$MySendListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBox$MyStartListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBox$MyStopListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBox$MyUpTempoListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BeatBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MyClearListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MyClearListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MyDownTempoListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MyDownTempoListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MyReadInListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MyReadInListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MySendListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MySendListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MyStartListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MyStartListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MyStopListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MyStopListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MyUpTempoListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView$MyUpTempoListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BeatBox/BeatBoxView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BeatBox/ControllerInterface.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BeatBoxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BeatBoxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BeatBoxLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BeatBoxLauncher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BeatBoxModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BeatBoxModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BeatBoxView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BeatBoxView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ControllerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BeatObserver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +34,8 @@
       <file leaf-file-name="BeatBoxController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BeatBoxController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="-339">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#329#330#0" expanded="true" />
@@ -53,16 +57,16 @@
         <entry file="file://$PROJECT_DIR$/src/BeatBoxLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControllerInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ControllerInterface.java">
+      <file leaf-file-name="BeatObserver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BeatObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -70,8 +74,8 @@
       <file leaf-file-name="BeatBoxView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BeatBoxView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="2839">
+              <caret line="167" column="20" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2892#2893#0" expanded="true" />
@@ -100,6 +104,8 @@
                 <element signature="e#4042#4043#0" expanded="true" />
                 <element signature="e#4164#4165#0" expanded="true" />
                 <element signature="e#4218#4219#0" expanded="true" />
+                <element signature="e#5113#5114#0" expanded="true" />
+                <element signature="e#5173#5174#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,8 +114,8 @@
       <file leaf-file-name="BeatBoxModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BeatBoxModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="126">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,12 +148,12 @@
         <option value="$PROJECT_DIR$/src/BeatObservable.java" />
         <option value="$PROJECT_DIR$/src/BeatObserver.java" />
         <option value="$PROJECT_DIR$/src/BeatBox.java" />
-        <option value="$PROJECT_DIR$/src/ControllerInterface.java" />
         <option value="$PROJECT_DIR$/src/ViewInterface.java" />
-        <option value="$PROJECT_DIR$/src/BeatBoxLauncher.java" />
-        <option value="$PROJECT_DIR$/src/BeatBoxModel.java" />
+        <option value="$PROJECT_DIR$/src/ControllerInterface.java" />
         <option value="$PROJECT_DIR$/src/BeatBoxView.java" />
         <option value="$PROJECT_DIR$/src/BeatBoxController.java" />
+        <option value="$PROJECT_DIR$/src/BeatBoxLauncher.java" />
+        <option value="$PROJECT_DIR$/src/BeatBoxModel.java" />
       </list>
     </option>
   </component>
@@ -360,6 +366,8 @@
             <element signature="e#4042#4043#0" expanded="true" />
             <element signature="e#4164#4165#0" expanded="true" />
             <element signature="e#4218#4219#0" expanded="true" />
+            <element signature="e#5113#5114#0" expanded="true" />
+            <element signature="e#5173#5174#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -424,23 +432,6 @@
     <entry file="file://$PROJECT_DIR$/src/ViewInterface.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BeatBoxModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BeatBoxLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BeatBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3910">
@@ -451,17 +442,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ControllerInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BeatBoxView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="2839">
+          <caret line="167" column="20" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2892#2893#0" expanded="true" />
@@ -490,14 +474,40 @@
             <element signature="e#4042#4043#0" expanded="true" />
             <element signature="e#4164#4165#0" expanded="true" />
             <element signature="e#4218#4219#0" expanded="true" />
+            <element signature="e#5113#5114#0" expanded="true" />
+            <element signature="e#5173#5174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BeatObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BeatBoxLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BeatBoxModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BeatBoxController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="-339">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#329#330#0" expanded="true" />

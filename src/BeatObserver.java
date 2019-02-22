@@ -1,4 +1,4 @@
-public interface ControllerInterface {
+public interface BeatObserver {
     void startWasPushed();
     void stopWasPushed();
     void upTempoWasPushed();

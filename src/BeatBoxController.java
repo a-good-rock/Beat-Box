@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.util.ArrayList;
 
-public class BeatBoxController  implements ControllerInterface{
+public class BeatBoxController  implements BeatObserver{
 
     BeatBoxView view;
     BeatBoxModel model;
@@ -9,6 +9,7 @@ public class BeatBoxController  implements ControllerInterface{
     public BeatBoxController(BeatBoxView view, BeatBoxModel model) {
         this.view = view;
         this.model = model;
+        view.registerObserver(this);
     }
 
     public void createBeatBox() {

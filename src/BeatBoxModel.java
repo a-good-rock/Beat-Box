@@ -148,6 +148,5 @@ public class BeatBoxModel {
         }
 
         sequencer.stop();
-        buildTrackAndStart();
     }
 }

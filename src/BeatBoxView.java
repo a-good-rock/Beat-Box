@@ -13,7 +13,7 @@ public class BeatBoxView {
             "Acoustic Snare", "Crash Cymbal", "Hand Clap", "High Tom", "Hi Bongo",
             "Maracas", "Whistle", "Low Conga", "Cowbell", "Vibraslap", "Low-mid Tom",
             "High Agogo", "Open Hi Conga"};
-    ControllerInterface controllerObserver;
+    BeatObserver observer;
     JButton start;
     JButton stop;
     JButton load;
@@ -134,42 +134,42 @@ public class BeatBoxView {
 
     public class MyStartListener implements ActionListener {
         public void actionPerformed(ActionEvent a) {
-            controllerObserver.startWasPushed();
+            observer.startWasPushed();
         }
     }
     public class MyStopListener implements ActionListener {
         public void actionPerformed(ActionEvent a) {
-            controllerObserver.stopWasPushed();
+            observer.stopWasPushed();
         }
     }
     public class MyUpTempoListener implements ActionListener {
         public void actionPerformed(ActionEvent a) {
-            controllerObserver.upTempoWasPushed();
+            observer.upTempoWasPushed();
         }
     }
     public class MyDownTempoListener implements ActionListener {
         public void actionPerformed(ActionEvent a) {
-            controllerObserver.downTempoWasPushed();
+            observer.downTempoWasPushed();
         }
     }
     public class MyClearListener implements ActionListener {
         public void actionPerformed(ActionEvent a) {
-            controllerObserver.clearWasPushed();
+            observer.clearWasPushed();
         }
     }
     public class MySendListener implements ActionListener {
         public void actionPerformed(ActionEvent a) {
-            controllerObserver.serializeWasPushed();
+            observer.serializeWasPushed();
             }
     }
 
     public class MyReadInListener implements ActionListener {
         public void actionPerformed(ActionEvent a) {
-            controllerObserver.loadWasPushed();
+            observer.loadWasPushed();
         }
     }
 
-    public void registerObserver(ControllerInterface controllerObserver) {
-        this.controllerObserver = controllerObserver;
+    public void registerObserver(BeatObserver observer) {
+        this.observer = observer;
     }
 }
